@@ -1,9 +1,9 @@
-# Blank Slate board configuration
+# z40 board configuration
 
 # Copyright (c) 2021 Pete Johanson
 # SPDX-License-Identifier: MIT
 
-config BOARD_LPGALAXY_BLANK_SLATE
-	bool "LP Galaxy Blank Slate"
+config BOARD_Z40
+	bool "Z40"
 	depends on SOC_NRF52840_QIAA
 

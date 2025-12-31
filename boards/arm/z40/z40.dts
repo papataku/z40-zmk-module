@@ -7,7 +7,7 @@
 /dts-v1/;
 #include <nordic/nrf52840_qiaa.dtsi>
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "lpgalaxy_blank_slate-layouts.dtsi"
+#include "z40-layouts.dtsi"
 
 &layout_ortho_4x12_all1u {
 	transform = <&ortho_transform>;
@@ -22,8 +22,8 @@
 };
 
 / {
-	model = "blank_slate";
-	compatible = "lpgalaxy,blank_slate";
+	model = "z40";
+	compatible = "quarkeys,z40";
 
 	chosen {
 		zephyr,code-partition = &code_partition;
